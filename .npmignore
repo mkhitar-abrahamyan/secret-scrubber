@@ -1,0 +1,13 @@
+src/
+core/
+adapters/
+dock.md
+DEPLOY.md
+tsconfig.json
+.gitignore
+coverage/
+*.tgz
+.env
+.env.*
+scrubber-report.*
+scrubbed-*
