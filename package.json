@@ -1,5 +1,5 @@
 {
-  "name": "@mkhitar/secret-scrubber",
+  "name": "@mkhitar9999/secret-scrubber",
   "version": "1.0.0",
   "description": "High-performance privacy middleware and CLI — prevent API keys, PII, and local paths from leaking to LLM providers",
   "main": "dist/src/index.js",

@@ -1,4 +1,4 @@
-# Deployment Guide: Publishing @mkhitar/secret-scrubber to npm
+# Deployment Guide: Publishing @mkhitar99/secret-scrubber to npm
 
 > **Internal document** — not included in the published npm package.
 
@@ -6,7 +6,7 @@
 
 1. **npm account** — Create one at [npmjs.com](https://www.npmjs.com/signup)
 2. **npm CLI logged in** — Run `npm login`
-3. **npm org** — Create the `@mkhitar` org at [npmjs.com/org/create](https://www.npmjs.com/org/create) (if not already done)
+3. **npm org** — Create the `@mkhitar99` org at [npmjs.com/org/create](https://www.npmjs.com/org/create) (if not already done)
 
 ## Step-by-Step Publish
 
@@ -27,7 +27,7 @@ npm pack --dry-run
 npm publish --access public
 
 # 6. Verify it's live
-npm info @mkhitar/secret-scrubber
+npm info @mkhitar99/secret-scrubber
 ```
 
 ## Updating the Package
@@ -73,5 +73,5 @@ Add your npm token as `NPM_TOKEN` in GitHub repo Settings → Secrets.
 ## Registry Notes
 
 - Scoped packages default to **private** — always use `--access public`
-- To unpublish: `npm unpublish @mkhitar/secret-scrubber@1.0.0` (within 72h only)
-- To deprecate: `npm deprecate @mkhitar/secret-scrubber@1.0.0 "Use v2 instead"`
+- To unpublish: `npm unpublish @mkhitar99/secret-scrubber@1.0.0` (within 72h only)
+- To deprecate: `npm deprecate @mkhitar99/secret-scrubber@1.0.0 "Use v2 instead"`

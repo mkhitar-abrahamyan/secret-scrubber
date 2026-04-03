@@ -1,6 +1,6 @@
-Technical Specification: @mkhitar/secret-scrubber
+Technical Specification: @mkhitar99/secret-scrubber
 1. Product Overview
-@mkhitar/secret-scrubber is a high-performance privacy middleware and CLI tool designed to prevent sensitive data—such as API keys, Personal Identifiable Information (PII), and local environment paths—from being sent to LLM providers (OpenAI, Anthropic, etc.). It acts as a "Privacy Firewall" that intercepts code or logs before they are copy-pasted or piped into an AI prompt.
+@mkhitar99/secret-scrubber is a high-performance privacy middleware and CLI tool designed to prevent sensitive data—such as API keys, Personal Identifiable Information (PII), and local environment paths—from being sent to LLM providers (OpenAI, Anthropic, etc.). It acts as a "Privacy Firewall" that intercepts code or logs before they are copy-pasted or piped into an AI prompt.
 
 Core Philosophy: "Zero-Trust Context." What the AI doesn't know, the provider can't leak.
 

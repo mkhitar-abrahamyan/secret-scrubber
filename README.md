@@ -1,4 +1,4 @@
-# @mkhitar/secret-scrubber
+# @mkhitar99/secret-scrubber
 
 > Privacy firewall for developers — automatically strips API keys, passwords, PII, and local file paths before you send code to AI assistants.
 
@@ -20,7 +20,7 @@ Every time you paste code into ChatGPT, Copilot, or Claude, you might accidental
 ### Install
 
 ```bash
-npm install @mkhitar/secret-scrubber
+npm install @mkhitar99/secret-scrubber
 ```
 
 ### Use it
@@ -339,7 +339,7 @@ Use secret-scrubber as a library in your own Node.js tools:
 ### Quick Scrub
 
 ```ts
-import { scrub } from '@mkhitar/secret-scrubber';
+import { scrub } from '@mkhitar99/secret-scrubber';
 
 const result = scrub('DATABASE_URL=mongodb+srv://admin:s3cr3t@cluster.example.net/db');
 
@@ -353,7 +353,7 @@ console.log(result.stats);
 ### Scrub a File
 
 ```ts
-import { scrubFile } from '@mkhitar/secret-scrubber';
+import { scrubFile } from '@mkhitar99/secret-scrubber';
 
 const result = scrubFile('./config.ts', {
   safetyLevel: 'STRICT',
@@ -366,7 +366,7 @@ const result = scrubFile('./config.ts', {
 When you scrub multiple files, the same secret always gets the same placeholder:
 
 ```ts
-import { Redactor } from '@mkhitar/secret-scrubber';
+import { Redactor } from '@mkhitar99/secret-scrubber';
 
 const redactor = new Redactor({ safetyLevel: 'BALANCED' });
 const r1 = redactor.scrub(fileA);
@@ -389,7 +389,7 @@ import {
   ClipboardAdapter,   // Clipboard scrub utility
   ProjectScanner,     // Project-wide file discovery
   IgnoreAuditor,      // .gitignore audit utility
-} from '@mkhitar/secret-scrubber';
+} from '@mkhitar99/secret-scrubber';
 ```
 
 ---
