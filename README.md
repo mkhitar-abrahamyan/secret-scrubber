@@ -427,7 +427,7 @@ Clean output with stable placeholders
 **Before:**
 ```
 DATABASE_URL=mongodb+srv://admin:s3cr3t@cluster0.example.net/mydb
-STRIPE_KEY=sk_live_XXXXXXXXXXXXXXXXXXXXXXXX
+STRIPE_KEY=YOUR_STRIPE_KEY_HERE
 Contact: john@example.com or call +1 555 123 4567
 Path: /Users/john/Projects/my-app/src/index.ts
 ```
