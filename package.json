@@ -1,6 +1,6 @@
 {
   "name": "@mkhitar99/secret-scrubber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-performance privacy middleware and CLI — prevent API keys, PII, and local paths from leaking to LLM providers",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
